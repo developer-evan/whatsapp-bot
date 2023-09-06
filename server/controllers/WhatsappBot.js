@@ -4,13 +4,13 @@ import twilio from 'twilio';
 dotenv.config();
 
 const {
-  SID: AC11b07dc0312fbc81ef90ce00012f927b,
-  KEY: e859c138c9a46ba0c9c68d9cbb70df60,
-  APIKEY: AIzaSyC46VbOfPWcrf_qCZxwiHEpgsPGTuJp3Os,
-  CX: a4d6ecf52ed7c4c17,
+  SID: AC11b07dc0312fbc81ef90ce00012f927**,
+  KEY: e859c138c9a46ba0c9c68d9cbb70df**,
+  APIKEY: AIzaSyC46VbOfPWcrf_qCZxwiHEpgsPGTuJp3**,
+  CX: a4d6ecf52ed7c4c**,
 } = process.env;
 
-twilio(AC11b07dc0312fbc81ef90ce00012f927b, e859c138c9a46ba0c9c68d9cbb70df60);
+twilio(AC11b07dc0312fbc81ef90ce00012f92**, e859c138c9a46ba0c9c68d9cbb70d**0);
 const { MessagingResponse } = twilio.twiml;
 const customsearch = google.customsearch('v1');
 
