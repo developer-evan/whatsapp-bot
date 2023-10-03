@@ -3,6 +3,7 @@ import WhatsappBot from '../controllers/WhatsAppBot';
 
 const botRouter = Router();
 
-botRouter.post('/incoming', WhatsappBot.googleSearch);
+botRouter.post('/incoming', 
+               WhatsappBot.googleSearch);
 
 export default botRouter;
